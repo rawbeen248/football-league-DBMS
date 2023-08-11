@@ -1,0 +1,98 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:teal;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 450px;  
+		height: 200px;
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 60px;  
+        background: turquoise;  
+        border-radius: 15px ;  
+          
+}  
+
+.signup{  
+        width: 450px;  
+		height: 200px;
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 60px;  
+        background: turquoise;  
+        border-radius: 15px ;  
+          
+}  
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ 
+.logo img {
+	width: 180px;
+	border-radius: 10px;
+}
+
+h2{  
+    text-align: center;  
+    color: black;
+	font-size: 	30px;
+    padding: 10px;  
+}  
+label{  
+    color:sienna;  
+    font-size: 16px;
+	display: block;
+	width: 300px;
+	height: 20px;
+	text-align: left;
+	
+}  
+#username{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#password{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#login{ 
+    color: red;  
+	font-weight: bold;
+}
+#signup{  
+    color: red;  
+	font-weight: bold;
+}
+#signupnew{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: red;  
+	font-weight: bold;
+}
+#gologin{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: red;  
+	font-weight: bold;
+}  

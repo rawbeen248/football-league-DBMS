@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+
+<title>Input Benched Player</title>
+<link rel="stylesheet" type="text/css" href="forms.css">
+</head>
+<style>
+body {
+  align-items: center;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.form {
+  background-color: #15172b;
+  position: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+  padding: 20px;
+  width: 320px;
+  }
+</style>
+<body>
+<form action="insert_benched_player.php" method="post">
+<br><br><br><br><br><br>
+
+
+
+	<div class="form">
+			 <div class="logo">
+		<img src= "logo.png">
+		</div> 	
+      <div class="subtitle">Insert Benched Player </div>
+	  
+	  <div class="input-container ic2">
+	    <input name="player_id" id="player_id" class="input" type="number" placeholder=" " />
+        <div class="cut"></div>
+        <label for="player_id" class="placeholder">Player ID</>
+      </div>
+      <div class="input-container ic2">
+	    <input name="player_name" id="player_name" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="player_name" class="placeholder">Player's Name</>
+      </div>
+	  <div class="input-container ic2">
+	    <input name="team_id" id="team_id" class="input" type="number" placeholder=" " />
+        <div class="cut"></div>
+        <label for="team_id" class="placeholder">Team ID</>
+      </div>
+      <div class="input-container ic2">
+	    <input name="match_id" id="match_id" class="input" type="number" placeholder=" " />
+        <div class="cut"></div>
+        <label for="match_id" class="placeholder">Match ID</>
+      </div>
+	  <button type="text" class="submit" value="submit">Add</button>
+    </div>
+</form>
+</body>
+
+</html>
+	  

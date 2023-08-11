@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+
+<title>Input Team</title>
+<link rel="stylesheet" type="text/css" href="forms.css">
+</head>
+<style>
+body {
+  align-items: center;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.form {
+  background-color: #15172b;
+  position: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+  padding: 20px;
+  width: 320px;
+  }
+</style>
+<body>
+<form action="insert_team.php" method="post">
+<br><br><br><br><br><br>
+<br><br>
+
+	<div class="form">
+			 <div class="logo">
+		<img src= "logo.png">
+		</div> 	
+      <div class="subtitle">Insert Team</div>
+	  
+	  <div class="input-container ic1">
+        <input name="team_name" id="team_name" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="team_name" class="placeholder">Team Name</label>
+      </div>	  
+      <div class="input-container ic1">
+        <input name="location" id="location" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="location" class="placeholder">Location</label>
+      </div>
+	  <div class="input-container ic1">
+        <input name="manager" id="manager" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="manager" class="placeholder">Manager</label>
+      </div>
+	  <div class="input-container ic1">
+        <input name="coach" id="coach" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="coach" class="placeholder">Coach</label>
+      </div>	  
+      <div class="input-container ic2">
+        <input name="tot_players" id="tot_players" class="input" type="number" placeholder=" " />
+        <div class="cut"></div>
+        <label for="tot_players" class="placeholder">Total Players</label>
+      </div>
+	  	  <button type="text" class="submit" value="submit">Add</button>
+    </div>
+</form>
+</body>
+
+</html>

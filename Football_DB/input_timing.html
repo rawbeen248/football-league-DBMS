@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+
+<title>Input Event</title>
+<link rel="stylesheet" type="text/css" href="forms.css">
+</head>
+<style>
+body {
+  align-items: center;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.form {
+  background-color: #15172b;
+  position: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+  padding: 20px;
+  width: 320px;
+  }
+</style>
+<body>
+<form action="insert_timing.php" method="post">
+<br><br><br><br><br><br>
+
+
+
+	<div class="form">
+			 <div class="logo">
+		<img src= "logo.png">
+		</div> 	
+      <div class="subtitle" style="margin-left:90px;" >Insert Event</div>
+	  
+	  <div class="input-container ic2">
+	    <input name="match_id" id="match_id" class="input" type="number" placeholder=" " />
+        <div class="cut"></div>
+        <label for="match_id" class="placeholder">Match ID</>
+      </div>
+      <div class="input-container ic2">
+	    <input name="event" id="event" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="event" class="placeholder">Event</>
+      </div>
+	  <div class="input-container ic2">
+	    <input name="player_name" id="player_name" class="input" type="text" placeholder=" " />
+        <div class="cut"></div>
+        <label for="player_name" class="placeholder">Player Name</>
+      </div>
+      <div class="input-container ic2">
+	    <input name="time" id="time" class="input" type="time" placeholder=" " />
+        <div class="cut"></div>
+        <label for="time" class="placeholder">Time</>
+      </div>
+	  <button type="text" class="submit" value="submit">Add</button>
+    </div>
+</form>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Add Record Form</title>
+<link rel="stylesheet" type="text/css" href="login_page.css">
+</head>
+
+<body>
+<center>
+<br><br>
+	<div class="logo">
+		<img src= "logo.png">
+	</div> 
+	<br><br>
+	<div class="signup">
+	<form action="signup.php" id="signup" method="post">
+
+		<p>
+			<label for="username">Username</label>
+			<input type="text" name="username" id="username" placeholder="Username" required>
+		</p>
+		<br>
+		<p>
+			<label for="password">Password</label>
+			<input type="text" name="password" id="password" placeholder="Password" required>
+		</p>
+		<input type="submit" name="signup" id="signup" value="Signup">
+	</div>
+	<br><br>
+		<div class="gologin">
+		<a href = "login.php">Already a user? Login</a>  
+		</div>
+	</form>
+</body>
+
+</html>
